@@ -1,0 +1,104 @@
+/* AnimatedHeading.css */
+
+/* Red color */
+.red-heading {
+  color: red;
+  background: #e91919; /* Background color for the block */
+  /* border: 5px solid #e91919; Border color and thickness */
+  background: linear-gradient(to right, transparent 0%, #e91919);
+}
+
+/* Blue color */
+.blue-heading {
+  color: rgb(24, 169, 226);
+  background: rgb(24, 169, 226); /* Background color for the block */
+  /* border: 5px solid rgb(24, 169, 226) ;Border color and thickness */
+  background: linear-gradient(to right, transparent 0%, rgb(24, 169, 226));
+}
+
+/* Green color */
+.green-heading {
+  color: rgba(115, 214, 33, 0.959);
+  background: rgba(115, 214, 33, 0.959); /* Background color for the block */
+  /* border: 5px solid rgba(115, 214, 33, 0.959); Border color and thickness */
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(115, 214, 33, 0.959)
+  );
+}
+
+.purple-heading {
+  color: rgba(147, 71, 235, 0.959);
+  background: rgba(147, 71, 235, 0.959); /* Background color for the block */
+  /* border: 1px solid rgba(147, 71, 235, 0.959); Border color and thickness */
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(147, 71, 235, 0.959)
+  );
+}
+
+.black-heading {
+  color: rgba(11, 10, 12, 0.959);
+  background: rgba(0, 0, 0, 0.959); /* Background color for the block */
+  /* border: 1px solid rgba(147, 71, 235, 0.959); Border color and thickness */
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(8, 7, 8, 0.959)
+  );
+}
+.orange-heading {
+  color: rgba(240, 118, 18, 0.959);
+  background: rgba(240, 118, 18, 0.959); /* Background color for the block */
+  /* border: 1px solid rgba(147, 71, 235, 0.959); Border color and thickness */
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(240, 118, 18, 0.959)
+  );
+}
+
+/* Define other color styles as needed */
+
+/* Entertainment.css */
+
+.animated-heading {
+  /* Set background color at the end of the block */
+  padding: 10px; /* Decreased padding to reduce the height of the heading block */
+}
+
+.heading-block {
+  padding: 10px; /* Decreased padding to reduce the height of the heading block */
+  /* Add padding to the heading block */
+}
+
+.heading-text {
+  color: white; /* Set text color */
+  align-self: center;
+}
+/* AnimatedHeading.css */
+.animated-heading {
+  text-align: left;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.heading-text {
+  font-size: 2.5rem;
+  color: #333;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 0; /* Remove the margin space below the heading */
+}
+
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

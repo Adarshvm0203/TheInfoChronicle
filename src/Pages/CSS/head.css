@@ -1,0 +1,16 @@
+/* Header.css */
+/* Define your custom styles here */
+
+/* Change link color when hovering */
+.navbar a.nav-link:hover {
+    color: red; /* Change this to the color you prefer */
+    
+  }
+  
+  /* Change link color when hovering for dropdown menu items */
+  .navbar .nav-link.dropdown-item:hover {
+    color: blue; /* Change this to the color you prefer */
+  }
+  .navbar .nav-link {
+    font-size: 20px; /* Change this value to the desired font size */
+  }

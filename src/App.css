@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* Custom CSS for hover-based dropdowns */
+.navbar .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
