@@ -18,7 +18,7 @@ function Carousel1(args) {
     const fetchData = async () => {
       try {
         const response = await axios.get('https://newsapi.org/v2/top-headlines?country=in&apiKey=0d4abe355cf641f3968145a740d38e5a');
-        const top3News = response.data.articles.slice(2, 15);
+        const top3News = response.data.articles.slice(0, 20);
         setItems(top3News);
       } catch (error) {
         console.error('Error fetching data:', error);

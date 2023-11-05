@@ -9,6 +9,7 @@ import Technology from "../Component/Technology";
 import Sidebar from "../Component/Sidebar";
 import Carousel1 from "../Component/Carousel";
 import Politics from "../Component/Politics";
+import AirQuality from "../Component/Airquality";
 
 const Home = () => {
   return (
@@ -37,6 +38,7 @@ const Home = () => {
           </div>
           <div className="col-md-4">
             {/* Display the sidebar component in a 3-column wide section */}
+            <AirQuality/>
             <Sidebar />
           </div>
         </div>
